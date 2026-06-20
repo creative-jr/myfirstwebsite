@@ -1,0 +1,219 @@
+body {
+    font-family: 'Times New Roman', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #000000;
+    color: #fff;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.contact-info {
+    margin: 20px 0;
+
+}
+
+.info-item {
+    margin: 10px 0;
+    align-items: flex-start;
+}
+form h2{
+    font-size: 35px;
+}
+
+form {
+    flex-basis: 55%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+
+form input, form textarea {
+    width: 150%;
+    margin: 5px 0;
+    padding: 17px;
+    border: 1px solid #555;
+    background-color: #ffffff;
+    color: #000000;
+    font-size: 16px;
+    font-family: 'Times New Roman', sans-serif;
+}
+.vertical-line{
+    width: 1px;
+    background-color: #000;
+    height: 75vh !important;
+    margin-top: 50px !important;
+    margin-bottom: 50px !important;
+    border-right: 1px solid #eabe82;
+    border-left: 1px solid #eabe82;
+}
+form hr {
+    margin-bottom: 20px !important;
+}
+
+form button {
+    background-color: #aca15a;
+    color: #ffffff;
+    padding: 15px 22px;
+    font-family: "Times New Roman",sans-serif;
+    border: none;
+    border-radius: 3px;
+    font-size: 25px;
+    cursor: pointer;
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+form button:hover {
+    background-color: #aca15a;
+}
+.navbar {
+    background-color: black;
+    padding: 10px 20px;
+}
+
+.navbar .navbar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar .logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+.logo{
+    color: white;
+    text-decoration: none;
+    position: relative;
+    left: 40px;
+    font-family: 'Times New Roman', sans-serif;
+    font-size: 100px;
+}
+.navbar .menu a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 16px;
+    position: relative;
+    right: 100px;
+    cursor: pointer;
+    transition: color 0.5s ease;
+}
+.navbar .menu a:hover {
+    color: #aca15a;
+}
+.hero {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url('contact_background.jpg');
+    border-top: 3px double #eabe82;
+    background-size: cover;
+    background-position: 50% 20%;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    text-align: left;
+    padding: 0 20px;
+}
+.hero-content{
+    opacity: 0;
+    transform: translateY(-30px);
+    transition: opacity 2s ease, transform 2s ease;
+}
+.hero-content.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+.hero-content h1 {
+    font-size: 55px;
+    margin-bottom: 20px;
+    font-family: "Times New Roman", sans-serif;
+}
+
+
+.hero-content {
+    display: flex;
+    flex-direction: column;
+    line-height: 0.8;
+    position:relative;
+    left: 150px;
+    bottom: 20px;
+}
+.hero-content h1{
+    font-size: 60px;
+    margin-bottom: 10px;
+}
+.contact-divider {
+    width: 100px;
+    height: 3px;
+    background-color: #aca15a;
+    margin: 0;
+    border: none;
+}
+.info-item a{
+    font-size: 25px;
+    letter-spacing: -1px;
+    font-weight: bold;
+    margin-top: 50% !important;
+}
+.info-item p{
+    padding: 20px !important;
+}
+.info-item img{
+    width: 20%;
+    position: relative !important;
+    right: 18%;
+    top: 90px;
+}
+.map-container {
+    width: 100%;
+    height: 550px;
+    margin: 20px 0;
+    overflow: hidden;
+}
+
+.map-container iframe {
+    width: 100%;
+    height: 100%;
+    border: #aca15a solid 5px;
+}
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 5px solid #aca15a;
+    margin-top: 40px;
+}
+
+footer img {
+    width: 15px;
+    height: 15px;
+    transition: opacity 0.3s;
+}
+
+footer img:hover {
+    opacity: 0.7;
+}
+.footer-content {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    text-decoration: none;
+    margin-bottom: 10px;
+    padding-bottom: 0;
+    margin-top: 10px;
+}
+.menu {
+    font-family: 'Times New Roman', sans-serif;
+ }
+
+
