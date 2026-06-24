@@ -4,8 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pie Republic</title>
-    <link rel="stylesheet" href="menu-style.css">
-    <link rel="icon" type="image/x-icon" href="favicon/favicon.ico">
+    <link rel="stylesheet" href="../css/menu-style.css">
+    <link rel="stylesheet" href="../css/responsive-design.css">
+    <link rel="icon" type="image/x-icon" href="../photos/favicon/faviconn.ico">
 </head>
 <body>
 <header class="navbar">
@@ -18,8 +19,8 @@
         </nav>
     </div>
 </header>
-<section class="hero">
-    <div class="hero-content" id = "hero">
+<section class="menu-hero">
+    <div class="menu-hero-content" id = "hero">
         <h2>Меню</h2>
         <p>Доставка по Ташкенту при минимальном заказе от 70.000 сум</p>
         <p>Принимаем заказы с 08:00 до 22:45 (ПН-СБ), с 10:00 до 22:45 (ВС)</p>
@@ -27,7 +28,7 @@
     </div>
 </section>
 <section class="menu-section">
-    <h2>НАШЕ МЕНЮ</h2>
+    <h2 class="our-menu">НАШЕ МЕНЮ</h2>
     <hr class="menu-divider">
     <div class="menu-content">
         <div class="menu-items">
@@ -71,14 +72,14 @@
             </ul>
         </div>
         <div class="menu-image">
-            <img src="menu-photos/hot-pies.jpg" alt="Hot Pies">
+            <img src="../photos/menu-photos/hot-pies.jpg" alt="Hot Pies">
         </div>
     </div>
 </section>
 <section class="menu-section">
     <div class="menu-content">
         <div class="menu-image">
-            <img src="menu-photos/soup.jpg" alt="Soups and Salads">
+            <img src="../photos/menu-photos/soup.jpg" alt="Soups and Salads">
         </div>
         <div class="menu-items">
             <h2>СУПЫ И САЛАТЫ</h2>
@@ -163,11 +164,6 @@
                     <span class="price">75 000</span>
                 </li>
                 <li>
-                    <span class="item-name">Спагетти с креветками в сливочном соусе</span>
-                    <span class="dots"></span>
-                    <span class="price">95 000</span>
-                </li>
-                <li>
                     <span class="item-name">Форель томленная в сливках</span>
                     <span class="dots"></span>
                     <span class="price">120 000</span>
@@ -225,14 +221,14 @@
             </ul>
         </div>
         <div class="menu-image">
-            <img src="menu-photos/second-meal.jpg" alt="Second Meals">
+            <img src="../photos/menu-photos/second-meal.jpg" alt="Second Meals">
         </div>
     </div>
 </section>
 <section class="menu-section">
     <div class="menu-content">
         <div class="menu-image">
-            <img src="menu-photos/sandwich.jpg" alt="Sandwiches">
+            <img src="../photos/menu-photos/sandwich.jpg" alt="Sandwiches">
         </div>
         <div class="menu-items">
         <h2>СЭНДВИЧИ</h2>
@@ -334,14 +330,14 @@
             </ul>
             </div>
         <div class="menu-image">
-            <img src="menu-photos/dessert.jpg" alt="Desserts">
+            <img src="../photos/menu-photos/dessert.jpg" alt="Desserts">
         </div>
     </div>
 </section>
 <section class="menu-section">
     <div class="menu-content">
         <div class="menu-image">
-            <img src="menu-photos/pie.jpg" alt="Pies and pastries">
+            <img src="../photos/menu-photos/pie.jpg" alt="Pies and pastries">
         </div>
         <div class="menu-items">
             <h2>ПИРОГИ И ВЫПЕЧКИ</h2>
@@ -394,18 +390,24 @@
     <div class="footer-content">
         <a>Режим работы: ПН-СБ 08:00 - 22:00,</a>
         <a> ВС 10:00 - 22:00;</a>
-        <a>Улица Шахрисабз 33-34, Ташкент, Ташкент, Узбекистан;  Тел: +998951988877</a>
-        <article>
-            <img src="favicon/instagram.ico" alt="Instagram">
-            <a href="https://www.instagram.com/pierepublicuz" target="_blank" aria-current="page">
+        <a>Улица Шахрисабз 33-34, Ташкент, Ташкент, Узбекистан;  </a>
+        <article style="margin: 10px 0;">
+            <a href="tel:+998951988877" style="text-decoration: none; color: white;">
+                <img src="../photos/favicon/phone.ico" alt="Phone Number">
+                <span class="footer-content">+998951988877</span>
+            </a>
+            <a href="https://www.instagram.com/pierepublicuz" target="_blank" aria-current="page" style="text-decoration: none; color: white;">
+                <img src="../photos/favicon/instagram.ico" alt="Instagram">
                 <span class="footer-content">Instagram</span>
             </a>
-            <img src="favicon/facebook.ico" alt="Facebook">
-            <a href="https://www.facebook.com/Pierepublicuz" target="_blank" aria-current="page"><span class="footer-content">Facebook</span></a>
+            <a href="https://www.facebook.com/Pierepublicuz" target="_blank" aria-current="page" style="text-decoration: none; color: white;">
+                <img src="../photos/favicon/facebook.ico" alt="Facebook">
+                <span class="footer-content">Facebook</span>
+            </a>
         </article>
     </div>
 </footer>
-<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-<script src="script.js"></script>
+<script src="../JavaScript/jQuery.min.js"></script>
+<script src="../JavaScript/script.js"></script>
 </body>
 </html>
