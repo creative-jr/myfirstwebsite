@@ -6,7 +6,7 @@ body {
     color: #fff;
 }
 
-.container {
+.contact-container {
     width: 80%;
     margin: 0 auto;
     display: flex;
@@ -15,7 +15,6 @@ body {
 
 .contact-info {
     margin: 20px 0;
-
 }
 
 .info-item {
@@ -106,8 +105,8 @@ form button:hover {
 .navbar .menu a:hover {
     color: #aca15a;
 }
-.hero {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url('contact-photos/contact-background.jpg');
+.contact-hero {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url('../photos/contact-photos/contact-background.jpg');
     border-top: 3px double #eabe82;
     background-size: cover;
     background-position: 50% 20%;
@@ -117,22 +116,22 @@ form button:hover {
     text-align: left;
     padding: 0 20px;
 }
-.hero-content{
+.contact-hero-content{
     opacity: 0;
     transform: translateY(-30px);
     transition: opacity 2s ease, transform 2s ease;
 }
-.hero-content.visible {
+.contact-hero-content.visible {
     opacity: 1;
     transform: translateY(0);
 }
-.hero-content h1 {
+.contact-hero-content h1 {
     font-size: 55px;
     margin-bottom: 20px;
 }
 
 
-.hero-content {
+.contact-hero-content {
     display: flex;
     flex-direction: column;
     line-height: 0.8;
@@ -140,7 +139,7 @@ form button:hover {
     left: 150px;
     bottom: 20px;
 }
-.hero-content h1{
+.contact-hero-content h1{
     font-size: 60px;
     margin-bottom: 10px;
 }
