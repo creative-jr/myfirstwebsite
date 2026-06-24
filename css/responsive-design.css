@@ -1,0 +1,201 @@
+@media (max-width: 480px) {
+    .navbar .logo {
+        left: 0;
+        font-size: 15px;
+    }
+
+    .navbar .menu a {
+        font-size: 11px;
+        right: 0;
+        left: 2px;
+        padding: 1px;
+        margin: auto;
+    }
+
+    .hero {
+        height: 70vh;
+    }
+    .hero h1{
+        font-size: 28px;
+        margin-top: 0;
+    }
+    .hero h2{
+        font-size: 16px;
+        margin-top: 50px;
+        margin-bottom: 0 !important;
+    }
+    .hero .star {
+        font-size: 50px;
+    }
+
+    .hero-content {
+        left: 10px;
+        bottom: 0;
+    }
+    .pressable-button{
+        padding: 8px 15px;
+        font-size: 16px !important;
+        width: 120px;
+        height: auto;
+    }
+    .about-section{
+        flex-direction: column;
+        padding: 20px 5%;
+    }
+    .about-section p{
+        font-size: 14px;
+    }
+    .about-section h2{
+        font-size: 28px;
+        margin: 15px 0;
+    }
+    .heading-divider{
+        margin-bottom: 30px;
+    }
+    .about-image img{
+        max-width: 100%;
+        margin-bottom: 40px;
+    }
+    .gallery-section{
+        padding-top: 40px;
+    }
+    .gallery-section h2{
+        margin-top:0;
+    }
+    .menu-hero-content {
+        left: 15px !important;
+        bottom: 0 !important;
+    }
+    .menu-hero-content h2 {
+        font-size: 40px !important;
+        margin-bottom: 0;
+    }
+    .menu-hero-content p {
+        font-size: 16px !important;
+        margin-right: 10px;
+        line-height: 1.3 !important;
+    }
+    .menu-hero-content .telegram-link {
+        font-size: 16px !important;
+    }
+    .menu-section h2{
+        margin-top: 0;
+    }
+    .menu-section .our-menu{
+        font-size: 27px !important;
+    }
+    .menu-divider{
+        margin-top: 30px;
+        margin-bottom: 0;
+    }
+    .menu-items h2{
+        margin-bottom: 10px;
+    }
+    .menu-section{
+        padding: 20px;
+        margin: 0;
+    }
+    .menu-content{
+        flex-direction: column;
+    }
+    .menu-items li{
+        font-size: 14px;
+    }
+    .menu-items h2{
+        font-size: 18px;
+    }
+    .menu-image img{
+        height: auto;
+        width: 100%;
+    }
+    .contact-hero-content{
+        left: 10px !important;
+        bottom: 0 !important;
+    }
+    .contact-hero-content h1{
+        font-size: 40px !important;
+        text-align: left !important;
+    }
+    .contact-container{
+        flex-direction: column;
+        width: 100%;
+        padding: 0 10px;
+        box-sizing: border-box !important;
+    }
+    .contact-container h2{
+        font-size: 25px !important;
+    }
+    .vertical-line{
+        display: none;
+    }
+    .contact-info{
+        width: 100%;
+        padding: 10px;
+        box-sizing: border-box !important;
+    }
+    .info-item img {
+        position: static !important;
+        width: 30px !important;
+        display: block !important;
+        margin-bottom: 8px !important;
+    }
+
+    .info-item {
+        display: flex !important;
+        align-items: center !important;
+        gap: 10px !important;
+        padding: 2px !important;
+        margin: 0 !important;
+    }
+    .info-item p{
+        margin: 5px 0 !important;
+        padding: 5px !important;
+    }
+
+    .info-item a {
+        font-size: 14px !important;
+    }
+    form {
+        width: 100% !important;
+        box-sizing: border-box !important;
+        padding: 0 10px !important;
+        margin-top: 0 !important;
+    }
+    form input, form textarea {
+        width: 100% !important;
+        box-sizing: border-box !important;
+        font-size: 14px !important;
+    }
+    form button{
+        width: 50% !important;
+        font-size: 18px;
+        box-sizing: border-box !important;
+    }
+    .map-container{
+        height: 250px;
+        width: 90%;
+        margin: 40px auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .contact-hero-content h1{
+        font-size: 24px;
+    }
+    footer{
+        flex-direction: column;
+        font-size: 14px;
+        text-align: center;
+        padding-bottom: 15px;
+        padding-top: 25px;
+        margin-top:0;
+        box-sizing: border-box !important;
+    }
+    footer article a{
+        flex-direction: column;
+        display: block;
+        width: 100%;
+        text-align: center;
+        margin-top: 15px;
+    }
+}
