@@ -23,7 +23,6 @@ body {
 .logo{
     color: white;
     text-decoration: none;
-    font-family: 'Times New Roman', sans-serif;
     position: relative;
     left: 40px;
     font-size: 100px;
@@ -43,8 +42,8 @@ body {
 .navbar .menu a:hover {
     color: #aca15a;
 }
-.hero {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url("menu-photos/menu-main.jpg");
+.menu-hero {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url("../photos/menu-photos/menu-main.jpg");
     border-top: 3px double #eabe82;
     background-size: cover;
     background-position: center;
@@ -54,26 +53,26 @@ body {
     text-align: left;
     padding: 0 20px;
 }
-.hero-content{
+.menu-hero-content{
     opacity: 0;
     transform: translateY(-30px);
     transition: opacity 2s ease, transform 2s ease;
 }
-.hero-content.visible {
+.menu-hero-content.visible {
     opacity: 1;
     transform: translateY(0);
 }
-.hero-content h2 {
+.menu-hero-content h2 {
     font-size: 55px;
     margin-bottom: 20px;
     color: #aca15a;
 }
 
-.hero-content p {
+.menu-hero-content p {
     font-size: 25px;
     margin-bottom: 10px;
 }
-.hero-content {
+.menu-hero-content {
     display: flex;
     flex-direction: column;
     line-height: 0.8;
@@ -81,8 +80,8 @@ body {
     left: 150px;
     bottom: 20px;
 }
-.hero-content .telegram-link {
-    color: #aca15a;
+.menu-hero-content .telegram-link {
+    color: white;
     text-decoration: underline;
     font-weight: bold;
     font-size: 30px;
